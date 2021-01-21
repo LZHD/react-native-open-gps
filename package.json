@@ -1,0 +1,38 @@
+{
+  "name": "react-native-open-gps",
+  "title": "react-native-open-gps",
+  "version": "0.0.1",
+  "description": "Open location services page for Android",
+  "main": "index.js",
+  "files": [
+    "README.md",
+    "android",
+    "index.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release:next": "npm publish --access public --tag next",
+    "release": "npm publish --access public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lzhd/react-native-open-gps.git"
+  },
+  "keywords": [
+    "react-native",
+    "location",
+    "android",
+    "location-services"
+  ],
+  "bugs": {
+    "url": "https://github.com/lzhd/react-native-open-gps/issues"
+  },
+  "homepage": "https://github.com/lzhd/react-native-open-gps#readme",
+  "author": "lzhd",
+  "license": "MIT",
+  "licenseFilename": "LICENSE",
+  "readmeFilename": "README.md",
+  "peerDependencies": {
+    "react-native": ">=0.60.0"
+  }
+}
